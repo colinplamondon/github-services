@@ -22,6 +22,8 @@ require 'tmail'
 require 'xmpp4r'
 require 'xmpp4r-simple'
 require 'rubyforge'
+require 'oauth'
+require 'oauth-consumer'
 
 module GitHub
   def service(name)
